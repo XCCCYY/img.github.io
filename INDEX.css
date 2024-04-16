@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: black; */
+    width: 100%;
+    height: 100%;
+}
+
+.box {
+    width: 540px;
+    height: 764px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.image {
+    width: 540px;
+    height: 764px;
+    background-image: url("./91ec3b3b5749830ec0e305e37540a60.jpg");
+    background-repeat: round;
+    position: absolute;
+    top: 0;
+}
+
+li {
+    list-style: none;
+    font-size: 12px;
+}
+
+.jieshao {
+    position: relative;
+}
+
+/* 介绍 */
+.jieshao p {
+    font-size: 35px;
+    margin-left: 80px;
+    background-image: linear-gradient(to left, #12c2e9, #c471ed, #f64f59);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: cursive;
+}
+
+/* 装饰 */
+.z_s {
+    /* 雪花图片 */
+    .img {
+        .img_img {
+            position: absolute;
+            background: url('./图片/雪花.png') no-repeat 0 0;
+            width: 334px;
+            height: 384px;
+        }
+
+        .img1 {
+            transform: rotateZ(136deg);
+            background-size: 10%;
+            top: 4px;
+            left: -93px;
+            opacity: 0.6;
+        }
+
+        .img2 {
+            transform: rotateZ(53deg);
+            background-size: 10%;
+            top: 394px;
+            left: -46px;
+            opacity: 0.37;
+        }
+
+        .img3 {
+            transform: rotateZ(127deg);
+            background-size: 7%;
+            top: 344px;
+            left: -93px;
+            opacity: 0.3;
+        }
+
+        .img4 {
+            transform: rotateZ(96deg);
+            background-size: 15%;
+            top: 114px;
+            left: -113px;
+            opacity: 0.26;
+        }
+
+        .img5 {
+            transform: rotateZ(16deg);
+            background-size: 9.5%;
+            top: 500px;
+            left: 173px;
+            opacity: 0.3;
+        }
+
+        .img6 {
+            transform: rotateZ(316deg);
+            background-size: 6%;
+            top: 382px;
+            left: 192px;
+            opacity: 0.29;
+        }
+
+        .img7 {
+            transform: rotateZ(46deg);
+            background-size: 7.7%;
+            top: 375px;
+            left: 93px;
+            opacity: 0.37;
+        }
+
+        .img8 {
+            transform: rotateZ(36deg);
+            background-size: 5.6%;
+            top: 444px;
+            left: 233px;
+            opacity: 0.46;
+        }
+
+        .img9 {
+            transform: rotateZ(123deg);
+            background-size: 7%;
+            top: -24px;
+            left: 23px;
+            opacity: 0.62;
+        }
+
+        .img10 {
+            transform: rotateZ(256deg);
+            background-size: 9%;
+            top: -104px;
+            left: 373px;
+            opacity: 0.6;
+        }
+    }
+}
+
+.jiage {
+    width: 380px;
+    position: relative;
+    color: rgba(255, 255, 255, 0.491);
+    margin: 0 auto;
+    top: 70px;
+}
+
+/* 光遇 */
+.sky {
+    width: 100%;
+}
+
+.sky_sky {
+    width: 350px;
+    margin: 0 auto;
+    background-color: #dd84fa11;
+}
+/* 上外边距 */
+.p_t {
+    padding-top: 20px;
+}
+
+.sky_p{
+    margin: 0 auto;
+    width: 270px;
+}
+
+/*各项列表 */
+.sky_IP {
+    width: 350px;
+    margin: 0 auto;
+}
+
+.sky_IP ul{
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.sky_IP ul li {
+    width: 175px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 0;
+    text-align: center;
+}
