@@ -35,6 +35,7 @@ li {
     position: relative;
     width: 350px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .jieshao p {
@@ -43,7 +44,6 @@ li {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: cursive;
 }
 
 /* 装饰 */
