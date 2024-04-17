@@ -1,0 +1,46 @@
+@media screen and (max-width: 750px) {
+    body {
+        position: fixed;
+    }
+
+    .box {
+        width: 100vw !important;
+    }
+
+    .image {
+        width: 100vw !important;
+        position: fixed !important;
+    }
+
+    .jieshao {
+        max-width: 46.6667vw !important;
+    }
+
+    .jieshao p {
+        font-size: 4.6667vw !important;
+    }
+    .jiage{
+        width: 65vw !important;
+    }
+    .sky_sky{
+        width: 46.6667vw !important;
+    }
+    .sky_p{
+        width: 36vw !important;
+    }
+    .sky_sky span:nth-child(1),
+    .sky_sky span:nth-child(3){
+        font-size: 1.6vw;
+    }
+    .sky_IP{
+        width: 46.6667vw !important;
+    }
+    .sky_IP ul{
+        width: 46.6667vw !important;
+    }
+    .sky_IP ul li{
+        width: 23.3333vw !important;
+        height: 4vw !important;
+        line-height: 4vw !important;
+    }
+}

@@ -30,14 +30,15 @@ li {
     font-size: 12px;
 }
 
+/* 介绍 */
 .jieshao {
     position: relative;
+    width: 350px;
+    margin: 0 auto;
 }
 
-/* 介绍 */
 .jieshao p {
     font-size: 35px;
-    margin-left: 80px;
     background-image: linear-gradient(to left, #12c2e9, #c471ed, #f64f59);
     background-clip: text;
     -webkit-background-clip: text;
@@ -47,6 +48,7 @@ li {
 
 /* 装饰 */
 .z_s {
+
     /* 雪花图片 */
     .img {
         .img_img {
@@ -144,6 +146,14 @@ li {
     color: rgba(255, 255, 255, 0.491);
     margin: 0 auto;
     top: 70px;
+    background-color: #dd84fa11;
+    /* 滚动条 */
+    overflow: auto;
+    height: 560px;
+}
+
+.jiage::-webkit-scrollbar {
+    width: auto;
 }
 
 /* 光遇 */
@@ -154,16 +164,17 @@ li {
 .sky_sky {
     width: 350px;
     margin: 0 auto;
-    background-color: #dd84fa11;
 }
+
 /* 上外边距 */
 .p_t {
     padding-top: 20px;
 }
 
-.sky_p{
+.sky_p {
     margin: 0 auto;
     width: 270px;
+    text-align: center;
 }
 
 /*各项列表 */
@@ -172,7 +183,7 @@ li {
     margin: 0 auto;
 }
 
-.sky_IP ul{
+.sky_IP ul {
     width: 350px;
     display: flex;
     flex-wrap: wrap;
